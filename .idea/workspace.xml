@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="554b9c4f-9df2-4d6b-8d41-ba81524a0e01" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/start-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/start-page.html" afterDir="false" />
-    </list>
+    <list default="true" id="554b9c4f-9df2-4d6b-8d41-ba81524a0e01" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +51,7 @@
       <workItem from="1630583800972" duration="7057000" />
       <workItem from="1630692202269" duration="7517000" />
       <workItem from="1630747252526" duration="21151000" />
-      <workItem from="1630835049836" duration="10508000" />
+      <workItem from="1630835049836" duration="10526000" />
     </task>
     <task id="LOCAL-00001" summary="price-page">
       <created>1630844695748</created>
@@ -81,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630844847260</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="price-page">
+      <created>1630845951573</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1630845951573</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,14 +94,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="price-page" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="218" key="#Notifications" timestamp="1630844732711">
+    <state x="552" y="218" key="#Notifications" timestamp="1630845963535">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="552" y="218" key="#Notifications/0.40.1920.1040@0.40.1920.1040" timestamp="1630844732711" />
-    <state x="585" y="154" key="CommitChangelistDialog2" timestamp="1630844846143">
+    <state x="552" y="218" key="#Notifications/0.40.1920.1040@0.40.1920.1040" timestamp="1630845963535" />
+    <state x="585" y="154" key="CommitChangelistDialog2" timestamp="1630845950218">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="585" y="154" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1630844846143" />
+    <state x="585" y="154" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1630845950218" />
     <state x="740" y="315" key="FileChooserDialogImpl" timestamp="1630778272104">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
