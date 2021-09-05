@@ -1,66 +1,131 @@
-.student{
-  padding-top: 72px;
-  padding-bottom: 72px;
-  &__title{
-    text-align: center;
-  }
-  &__img{
-    width: 100%;
-    height:auto;
-    background-repeat: no-repeat;
-    border-radius:8px;
-    display: block;
-    padding-bottom: 30px;
-    background-size: cover;
-    margin-top: 46px;
-    &_1{
-      background-image: url("../../img/student__img-1.png");
+.student {
+    padding-top: 72px;
+    padding-bottom: 72px;
+    &__title {
+        text-align: center;
     }
-    &_2{
-       background-image: url("../../img/student__img-2.png");
-     }
-    &_3{
-      background-image: url("../../img/student__img-3.png");
+    &__img {
+        width: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+        border-radius: 8px;
+        display: block;
+        padding-bottom: 30px;
+        background-size: cover;
+        margin-top: 46px;
+        &_1 {
+            background-image: url("../../img/student__img-1.png");
+        }
+        &_2 {
+            background-image: url("../../img/student__img-2.png");
+        }
+        &_3 {
+            background-image: url("../../img/student__img-3.png");
+        }
+        &_4 {
+            background-image: url("../../img/student__img-4.png");
+        }
+        &_5 {
+            background-image: url("../../img/student__img-5.png");
+        }
     }
-    &_4{
-      background-image: url("../../img/student__img-4.png");
-    }
-    &_5{
-      background-image: url("../../img/student__img-5.png");
-    }
-  }
-  &__btn{
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-top: 64px;
-  }
-  &__text{
-    color: #FFFFFF;
-    padding-top: 260px;
-    padding-left: 47px;
-    &__black{
-      color: #0E1530;
-    }
-  }
-  &__name{
-    padding-left: 60px;
-    font-size: 16px;
-    line-height: 26px;
-    margin-top: 0;
-    &_1{
-      position: relative;
-      &::after{
-        content: ' ';
-        background-image: url("../../img/student-1.svg");
-        width: 46px;
-        height: 46px;
-        position: absolute;
+    &__btn {
         left: 0;
-        top: -20px;
-      }
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 64px;
     }
-  }
+    &__text {
+        color: #FFFFFF;
+        padding-top: 260px;
+        padding-left: 47px;
+        &__black {
+            color: #0E1530;
+        }
+    }
+    &__name {
+        padding-left: 60px;
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 0;
+        &_1 {
+            position: relative;
+            &::after {
+                content: ' ';
+                background-image: url("../../img/student-1.svg");
+                width: 46px;
+                height: 46px;
+                position: absolute;
+                left: 0;
+                top: -20px;
+            }
+        }
+    }
+    .owl-theme {
+        .owl-stage {
+            margin-bottom: 20px;
+        }
+        .owl-dots .owl-dot {
+            &:focus {
+                outline: none;
+            }
+            span {
+                height: 6px;
+                margin: 0 6px;
+                width: 12px;
+                border-radius: 3px;
+                transition: all .3s;
+                background-color: #13317D;
+            }
+            &.active {
+                span {
+                    width: 27px;
+                    background-color: #6044FB;
+                }
+            }
+        }
+    }
+    .owl-nav {
+        display: none;
+        // position: absolute;
+        // left: 0;
+        // right: 0;
+        // top: 50%;
+        // background-color: transparent;
+        // $side-margin: 10px;
+        // z-index: 5;
+        // button {
+        //     transform: translateY(-50%);
+        //     border: none;
+        //     &:focus {
+        //         outline: none!important;
+        //     }
+        //     &:hover {
+        //         background-color: transparent!important;
+        //     }
+        //     span {
+        //         display: block;
+        //         width: 48px;
+        //         height: 48px;
+        //     }
+        //     &.owl-prev {
+        //         position: absolute;
+        //         span {
+        //             background-image: url("../../img/toggler-left.svg");
+        //             background-size: cover;
+        //         }
+        //         left: $side-margin;
+        //     }
+        //     &.owl-next {
+        //         position: absolute;
+        //         span {
+        //             background-image: url("../../img/toggler-right.svg");
+        //             background-size: cover;
+        //         }
+        //         right: $side-margin;
+        //     }
+        // }
+    }
 }

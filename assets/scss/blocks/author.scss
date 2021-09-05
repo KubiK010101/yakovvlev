@@ -1,58 +1,69 @@
-.author{
-  padding-bottom: 100px;
-  &__img{
-    width: 100%;
-    height: auto;
+.author {
+    padding-bottom: 100px;
     position: relative;
-    @media (max-width: 991.98px) {
-      margin-bottom: 57px;
-
+    &__img {
+        width: 100%;
+        height: auto;
+        position: relative;
+        @media (max-width: 991.98px) {
+            margin-bottom: 57px;
+        }
+        &::before {
+            content: ' ';
+            background-image: url("../../img/big-Ellipse.svg");
+            position: absolute;
+            width: 82px;
+            height: 82px;
+            right: 0;
+            top: 0;
+        }
     }
-    &::before{
-      content: ' ';
-      background-image: url("../../img/big-Ellipse.svg");
-      position: absolute;
-      width: 82px;
-      height: 82px;
-      right: 0;
-      top: 0;
+    &__text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        @media (max-width: 991.98px) {
+            position: relative;
+            top: auto;
+            left: auto;
+            margin-right: auto;
+            transform: translate(0, 0);
+        }
     }
-  }
-  &__text{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    @media (max-width: 991.98px) {
-      position: relative;
-      top: auto;
-      left: auto;
-      margin-right: auto;
-      transform: translate(0, 0);
+    &__title {
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 40px;
+        color: #FFFFFF;
     }
-  }
-  &__title{
-    font-weight: bold;
-    font-size: 28px;
-    line-height: 40px;
-    color: #FFFFFF;
-  }
-  &__list{
-    padding-left: 20px;
-    list-style: none;
-  }
-  &__list-item{
-    padding-bottom: 16px;
-    position: relative;
-    &::before{
-      content: ' ';
-      position: absolute;
-      background-image: url("../../img/list_before.svg");
-      width: 14px;
-      height: 14px;
-      left: -20px;
-      top: 5px;
+    &__list {
+        padding-left: 20px;
+        list-style: none;
     }
-  }
+    &__list-item {
+        padding-bottom: 16px;
+        position: relative;
+        &::before {
+            content: ' ';
+            position: absolute;
+            background-image: url("../../img/list_before.svg");
+            width: 14px;
+            height: 14px;
+            left: -20px;
+            top: 5px;
+        }
+    }
+    &__bg-blur {
+        position: absolute;
+        width: 40%;
+        height: 339px;
+        background: rgba(148, 90, 251, 0.1);
+        filter: blur(200px);
+        &.-i1 {
+            left: 45%;
+            top: 94px;
+        }
+    }
 }
