@@ -1,4 +1,9 @@
 .student{
+  padding-top: 72px;
+  padding-bottom: 72px;
+  &__title{
+    text-align: center;
+  }
   &__img{
     width: 100%;
     height:auto;
@@ -6,6 +11,8 @@
     border-radius:8px;
     display: block;
     padding-bottom: 30px;
+    background-size: cover;
+    margin-top: 46px;
     &_1{
       background-image: url("../../img/student__img-1.png");
     }
@@ -21,6 +28,14 @@
     &_5{
       background-image: url("../../img/student__img-5.png");
     }
+  }
+  &__btn{
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 64px;
   }
   &__text{
     color: #FFFFFF;
