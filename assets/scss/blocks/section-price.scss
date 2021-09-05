@@ -1,0 +1,23 @@
+.section-price{
+  &__title{
+    color: #FFFFFF;
+    position: relative;
+    &::before{
+      content: ' ';
+      position: absolute;
+      background-image: url("../../img/big-Ellipse.svg");
+      width: 82px;
+      height: 82px;
+      left: -35px;
+      top:-25px;
+      z-index: -1;
+    }
+  }
+  &__card{
+    text-align: center;
+    padding: 40px 29px 24px 29px;
+    background: radial-gradient(86.9% 100% at 51.96% 100%, rgba(127, 139, 255, 0.05) 0%, rgba(127, 139, 255, 0.25) 0.01%, rgba(127, 139, 255, 0) 100%), #1B2846;
+    border-radius: 30px;
+    color: #FFFFFF;
+  }
+}
