@@ -1,0 +1,90 @@
+.section-1{
+  padding: 72px 0 72px 0;
+  &__item{
+    padding-bottom: 100px;
+  }
+  &__title{
+    &_right{
+      text-align: center;
+    }
+  }
+  &__border{
+    position: relative;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: auto;
+    width: auto;
+    display: block;
+    &_1{
+      background-image: url("../../img/border.svg");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      //background-image: url("http://placeholder.pics/svg/150x250/DEDEDE/000000");
+      &::before{
+        content: ' ';
+        background-image: url("../../img/big-Ellipse.svg");
+        position: absolute;
+        width: 82px;
+        height: 82px;
+        right: 110px;
+        top: -50px;
+      }
+    }
+    &_2{
+      background-image: url("../../img/border-2.svg");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+    }
+    &_3{
+      background-image: url("../../img/border.svg");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+    }
+  }
+  &__border-text{
+    padding: 40px 51px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #A6B1CE;
+    &_p{
+      padding-top: 25px;
+    }
+  }
+  &__vector{
+    width: 70px;
+    height: 150px;
+    background-image: url(../../img/section-1__vector.svg);
+    background-position: top center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+  }
+  &__vector-2{
+    width: 98px;
+    height: 120px;
+    background-image: url(../../img/section-1__vector-2.svg);
+    background-position: top;
+    background-size: auto;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+  }
+  &__list{
+    padding-left: 0;
+    list-style: none;
+  }
+  &__list-item{
+    padding-bottom: 16px;
+    position: relative;
+    &::before{
+      content: ' ';
+      position: absolute;
+      background-image: url("../../img/list_before.svg");
+      width: 14px;
+      height: 14px;
+      left: -20px;
+      top: 5px;
+    }
+  }
+}

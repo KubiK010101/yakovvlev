@@ -1,0 +1,54 @@
+.section-2{
+  &__number{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 62px;
+    line-height: 64px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+  }
+  &__number-text{
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 32px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+  }
+  &__list{
+    font-size: 16px;
+    line-height: 26px;
+    color: #A6B1CE;
+    list-style: none;
+    padding-left: 54px;
+
+  }
+  &__list-item{
+    padding-bottom: 16px;
+    position: relative;
+    &::before{
+      content: ' ';
+      position: absolute;
+      background-image: url("../../img/list_before.svg");
+      width: 14px;
+      height: 14px;
+      left: -35px;
+      top: 5px;
+    }
+  }
+  &__course-info{
+    display: inline;
+  }
+  &__date{
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+  }
+  &__sub-date{
+    margin-bottom: 0;
+    font-size: 12px;
+    line-height: 19px;
+    color: #A6B1CE;
+  }
+}

@@ -1,0 +1,51 @@
+.student{
+  &__img{
+    width: 100%;
+    height:auto;
+    background-repeat: no-repeat;
+    border-radius:8px;
+    display: block;
+    padding-bottom: 30px;
+    &_1{
+      background-image: url("../../img/student__img-1.png");
+    }
+    &_2{
+       background-image: url("../../img/student__img-2.png");
+     }
+    &_3{
+      background-image: url("../../img/student__img-3.png");
+    }
+    &_4{
+      background-image: url("../../img/student__img-4.png");
+    }
+    &_5{
+      background-image: url("../../img/student__img-5.png");
+    }
+  }
+  &__text{
+    color: #FFFFFF;
+    padding-top: 260px;
+    padding-left: 47px;
+    &__black{
+      color: #0E1530;
+    }
+  }
+  &__name{
+    padding-left: 60px;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 0;
+    &_1{
+      position: relative;
+      &::after{
+        content: ' ';
+        background-image: url("../../img/student-1.svg");
+        width: 46px;
+        height: 46px;
+        position: absolute;
+        left: 0;
+        top: -20px;
+      }
+    }
+  }
+}
