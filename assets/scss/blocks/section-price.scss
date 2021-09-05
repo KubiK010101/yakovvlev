@@ -14,10 +14,24 @@
     }
   }
   &__card{
+    height: auto;
     text-align: center;
-    padding: 40px 29px 24px 29px;
+    padding: 50px 25px 24px 29px;
     background: radial-gradient(86.9% 100% at 51.96% 100%, rgba(127, 139, 255, 0.05) 0%, rgba(127, 139, 255, 0.25) 0.01%, rgba(127, 139, 255, 0) 100%), #1B2846;
     border-radius: 30px;
     color: #FFFFFF;
+    border: 1px solid #1B2846;;
+  }
+  &__card-sub-title{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #A6B1CE;
+  }
+  &__card-price{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 26px;
   }
 }

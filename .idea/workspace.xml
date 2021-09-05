@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="554b9c4f-9df2-4d6b-8d41-ba81524a0e01" name="Default Changelist" comment="" />
+    <list default="true" id="554b9c4f-9df2-4d6b-8d41-ba81524a0e01" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/blocks/section-price.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/blocks/section-price.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/start-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/start-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/start-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/start-page.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +58,7 @@
       <workItem from="1630583800972" duration="7057000" />
       <workItem from="1630692202269" duration="7517000" />
       <workItem from="1630747252526" duration="21151000" />
-      <workItem from="1630835049836" duration="10526000" />
+      <workItem from="1630835049836" duration="11466000" />
     </task>
     <task id="LOCAL-00001" summary="price-page">
       <created>1630844695748</created>
@@ -81,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630845951573</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="price-page">
+      <created>1630846166474</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1630846166474</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,10 +112,10 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="552" y="218" key="#Notifications/0.40.1920.1040@0.40.1920.1040" timestamp="1630845963535" />
-    <state x="585" y="154" key="CommitChangelistDialog2" timestamp="1630845950218">
+    <state x="585" y="154" width="749" height="876" key="CommitChangelistDialog2" timestamp="1630846165355">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="585" y="154" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1630845950218" />
+    <state x="585" y="154" width="749" height="876" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1630846165355" />
     <state x="740" y="315" key="FileChooserDialogImpl" timestamp="1630778272104">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -114,10 +128,10 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="672" y="276" key="MultipleFileMergeDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1630845073876" />
-    <state x="552" y="281" key="Vcs.Push.Dialog.v2" timestamp="1630844848868">
+    <state x="552" y="281" key="Vcs.Push.Dialog.v2" timestamp="1630846172674">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="552" y="281" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1630844848868" />
+    <state x="552" y="281" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1630846172674" />
     <state x="656" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1630835049966">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
