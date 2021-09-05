@@ -3936,6 +3936,8 @@ input[type="radio"].visually-hidden {
     color: #A6B1CE; }
     .section-1__border-text_p {
       padding-top: 25px; }
+  .section-1__img {
+    max-width: 100%; }
   .section-1__vector {
     width: 70px;
     height: 150px;
