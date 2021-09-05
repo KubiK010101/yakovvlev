@@ -3975,6 +3975,19 @@ input[type="radio"].visually-hidden {
       left: -20px;
       top: 5px; }
 
+.section-2__title {
+  color: #FFFFFF;
+  position: relative; }
+  .section-2__title::before {
+    content: ' ';
+    position: absolute;
+    background-image: url("../../img/big-Ellipse.svg");
+    width: 82px;
+    height: 82px;
+    left: -35px;
+    top: -25px;
+    z-index: -1; }
+
 .section-2__number {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
@@ -4147,17 +4160,65 @@ input[type="radio"].visually-hidden {
   font-size: 28px;
   line-height: 26px; }
 
-.section-2-phone .owl-theme .owl-dots .owl-dot span {
-  height: 6px;
-  margin: 0 6px;
-  width: 12px;
-  border-radius: 3px;
-  transition: all .3s;
-  background-color: #13317D; }
-
-.section-2-phone .owl-theme .owl-dots .owl-dot.active span {
-  width: 27px;
-  background-color: #6044FB; }
+.section-2-phone {
+  position: relative; }
+  .section-2-phone__title {
+    color: #FFFFFF;
+    position: relative; }
+    .section-2-phone__title::before {
+      content: ' ';
+      position: absolute;
+      background-image: url("../../img/big-Ellipse.svg");
+      width: 82px;
+      height: 82px;
+      left: -35px;
+      top: -25px;
+      z-index: -1; }
+  .section-2-phone .item {
+    margin: 0 60px; }
+  .section-2-phone .owl-theme .owl-dots .owl-dot:focus {
+    outline: none; }
+  .section-2-phone .owl-theme .owl-dots .owl-dot span {
+    height: 6px;
+    margin: 0 6px;
+    width: 12px;
+    border-radius: 3px;
+    transition: all .3s;
+    background-color: #13317D; }
+  .section-2-phone .owl-theme .owl-dots .owl-dot.active span {
+    width: 27px;
+    background-color: #6044FB; }
+  .section-2-phone .owl-nav {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    background-color: transparent;
+    z-index: 5; }
+    .section-2-phone .owl-nav button {
+      -webkit-transform: translateY(-50%);
+              transform: translateY(-50%);
+      border: none; }
+      .section-2-phone .owl-nav button:focus {
+        outline: none !important; }
+      .section-2-phone .owl-nav button:hover {
+        background-color: transparent !important; }
+      .section-2-phone .owl-nav button span {
+        display: block;
+        width: 48px;
+        height: 48px; }
+      .section-2-phone .owl-nav button.owl-prev {
+        position: absolute;
+        left: 10px; }
+        .section-2-phone .owl-nav button.owl-prev span {
+          background-image: url("../../img/toggler-left.svg");
+          background-size: cover; }
+      .section-2-phone .owl-nav button.owl-next {
+        position: absolute;
+        right: 10px; }
+        .section-2-phone .owl-nav button.owl-next span {
+          background-image: url("../../img/toggler-right.svg");
+          background-size: cover; }
 
 body {
   position: relative;

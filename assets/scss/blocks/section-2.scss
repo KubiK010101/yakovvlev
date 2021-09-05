@@ -1,4 +1,18 @@
 .section-2 {
+    &__title {
+        color: #FFFFFF;
+        position: relative;
+        &::before {
+            content: ' ';
+            position: absolute;
+            background-image: url("../../img/big-Ellipse.svg");
+            width: 82px;
+            height: 82px;
+            left: -35px;
+            top: -25px;
+            z-index: -1;
+        }
+    }
     &__number {
         font-family: 'Montserrat', sans-serif;
         font-weight: bold;
