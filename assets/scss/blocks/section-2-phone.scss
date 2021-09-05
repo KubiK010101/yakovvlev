@@ -1,0 +1,18 @@
+.section-2-phone {
+    .owl-theme .owl-dots .owl-dot {
+        span {
+            height: 6px;
+            margin: 0 6px;
+            width: 12px;
+            border-radius: 3px;
+            transition: all .3s;
+            background-color: #13317D;
+        }
+        &.active {
+            span {
+                width: 27px;
+                background-color: #6044FB;
+            }
+        }
+    }
+}
