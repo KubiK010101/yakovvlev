@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="554b9c4f-9df2-4d6b-8d41-ba81524a0e01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/scss/blocks/section-price.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/global/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/global/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/start-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/start-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/start-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/start-page.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,22 +53,43 @@
       <workItem from="1630583800972" duration="7057000" />
       <workItem from="1630692202269" duration="7517000" />
       <workItem from="1630747252526" duration="21151000" />
-      <workItem from="1630835049836" duration="9169000" />
+      <workItem from="1630835049836" duration="9409000" />
     </task>
+    <task id="LOCAL-00001" summary="price-page">
+      <created>1630844695748</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1630844695748</updated>
+    </task>
+    <task id="LOCAL-00002" summary="price-page">
+      <created>1630844782352</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1630844782352</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="price-page" />
+    <option name="LAST_COMMIT_MESSAGE" value="price-page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="218" key="#Notifications" timestamp="1630844732711">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="552" y="218" key="#Notifications/0.40.1920.1040@0.40.1920.1040" timestamp="1630844732711" />
-    <state x="585" y="154" key="CommitChangelistDialog2" timestamp="1630844693892">
+    <state x="585" y="154" key="CommitChangelistDialog2" timestamp="1630844781391">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="585" y="154" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1630844693892" />
+    <state x="585" y="154" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1630844781391" />
     <state x="740" y="315" key="FileChooserDialogImpl" timestamp="1630778272104">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -89,10 +102,10 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="672" y="276" key="MultipleFileMergeDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1630843303302" />
-    <state x="552" y="281" key="Vcs.Push.Dialog.v2" timestamp="1630844700146">
+    <state x="552" y="281" key="Vcs.Push.Dialog.v2" timestamp="1630844784205">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="552" y="281" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1630844700146" />
+    <state x="552" y="281" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1630844784205" />
     <state x="656" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1630835049966">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
