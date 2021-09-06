@@ -24,10 +24,11 @@
 @import "blocks/section-price";
 @import "blocks/section-2-phone";
 @import "blocks/section-form";
+@import "blocks/revievs";
 body {
     position: relative;
     background: #0D1334;
-    padding-left: 100px;
+    //padding-left: 100px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-family: 'Open Sans', sans-serif;
@@ -36,6 +37,16 @@ body {
     line-height: 1.2;
     font-size: 16px;
     min-width: 320px;
+
+
+}
+
+a:hover {
+    text-decoration: none;
+}
+.container-fluid{
+    padding-left: 100px;
+    padding-right: 100px;
     @media (max-width: 1399.98px) {
         padding-left: 50px;
     }
@@ -48,11 +59,8 @@ body {
         padding-right: 11px;
     }
 }
-
-a:hover {
-    text-decoration: none;
-}
-
-input:focus {
-    outline: none;
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1240px;
+    }
 }
