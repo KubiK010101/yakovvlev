@@ -3782,10 +3782,12 @@ input[type="radio"].visually-hidden {
     right: 0; }
   .page-header__btn-play {
     background-image: url("../../img/header-btn-play.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
     position: absolute;
-    width: 165px;
-    height: 200px;
-    right: 40%;
+    width: 40%;
+    height: 40%;
+    right: 30%;
     bottom: 5%;
     z-index: 5; }
   .page-header__social-img {
@@ -3937,14 +3939,18 @@ input[type="radio"].visually-hidden {
     position: relative;
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    background-color: #0D1334;
     height: auto;
     width: auto;
     display: block; }
+    @media (max-width: 991.98px) {
+      .section-1__border {
+        margin-top: 250px; } }
     .section-1__border_1 {
       background-image: url("../../img/border.svg");
       background-size: 100% 100%;
       background-repeat: no-repeat; }
-      .section-1__border_1::before {
+      .section-1__border_1::after {
         content: ' ';
         background-image: url("../../img/big-Ellipse.svg");
         position: absolute;
@@ -3968,7 +3974,45 @@ input[type="radio"].visually-hidden {
     .section-1__border-text_p {
       padding-top: 25px; }
   .section-1__img {
-    max-width: 100%; }
+    max-height: 350px;
+    position: absolute;
+    z-index: 5;
+    object-fit: cover;
+    bottom: 0;
+    top: 0; }
+    .section-1__img.-i1 {
+      right: 100%;
+      -webkit-transform: translate(100px, 0);
+              transform: translate(100px, 0); }
+      @media (max-width: 991.98px) {
+        .section-1__img.-i1 {
+          right: 65%;
+          top: 0;
+          -webkit-transform: translate(50%, -70%);
+                  transform: translate(50%, -70%);
+          z-index: -1; } }
+    .section-1__img.-i2 {
+      left: 100%;
+      -webkit-transform: translate(-80px, 0);
+              transform: translate(-80px, 0); }
+      @media (max-width: 991.98px) {
+        .section-1__img.-i2 {
+          left: 60%;
+          top: 0;
+          -webkit-transform: translate(-50%, -70%);
+                  transform: translate(-50%, -70%);
+          z-index: -1; } }
+    .section-1__img.-i3 {
+      right: 100%;
+      -webkit-transform: translate(30%, 0);
+              transform: translate(30%, 0); }
+      @media (max-width: 991.98px) {
+        .section-1__img.-i3 {
+          z-index: -1;
+          right: 60%;
+          top: 0;
+          -webkit-transform: translate(50%, -70%);
+                  transform: translate(50%, -70%); } }
   .section-1__vector {
     width: 70px;
     height: 150px;
@@ -4487,6 +4531,23 @@ input[type="radio"].visually-hidden {
   height: 100%;
   text-align: center; }
 
+.revievs__img-wrapper {
+  position: relative; }
+
+.revievs__btn-play {
+  background-image: url("../../img/header-btn-play.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 25%;
+  display: block;
+  height: 25%;
+  left: 17%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 5; }
+
 .revievs__name-title {
   color: #FFFFFF;
   margin-bottom: 32px; }
@@ -4538,21 +4599,20 @@ body {
 a:hover {
   text-decoration: none; }
 
-.container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
-  padding-left: 100px;
-  padding-right: 100px; }
-  @media (max-width: 1399.98px) {
-    .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
-      padding-left: 50px; } }
-  @media (max-width: 991.98px) {
-    .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
-      padding-left: 46px;
-      padding-right: 46px; } }
-  @media (max-width: 767.98px) {
-    .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
-      padding-left: 11px;
-      padding-right: 11px; } }
-
 @media (min-width: 1400px) {
-  .container {
-    max-width: 1240px; } }
+  .app-container {
+    max-width: 1240px;
+    padding-left: 50px; } }
+
+@media (max-width: 1399.98px) {
+  .app-container {
+    padding-left: 46px;
+    padding-right: 46px; } }
+
+@media (max-width: 991.98px) {
+  .app-container {
+    padding-left: 11px;
+    padding-right: 11px; } }
+
+.row {
+  position: relative; }

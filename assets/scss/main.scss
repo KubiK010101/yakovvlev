@@ -37,30 +37,31 @@ body {
     line-height: 1.2;
     font-size: 16px;
     min-width: 320px;
-
-
 }
 
 a:hover {
     text-decoration: none;
 }
-.container-fluid{
-    padding-left: 100px;
-    padding-right: 100px;
-    @media (max-width: 1399.98px) {
+
+.app-container {
+    // padding-left: 100px;
+    // padding-right: 100px;
+    @media (min-width: 1400px) {
+        max-width: 1240px;
         padding-left: 50px;
     }
-    @media (max-width: 991.98px) {
+    @media (max-width: 1399.98px) {
         padding-left: 46px;
         padding-right: 46px;
     }
-    @media (max-width: 767.98px) {
+    @media (max-width: 991.98px) {
         padding-left: 11px;
         padding-right: 11px;
     }
+    @media (max-width: 767.98px) {}
 }
-@media (min-width: 1400px) {
-    .container {
-        max-width: 1240px;
-    }
+
+.row {
+    // overflow-x: hidden;
+    position: relative;
 }
