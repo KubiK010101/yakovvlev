@@ -289,6 +289,11 @@ h2, .h2 {
 h3, .h3 {
   font-size: 26px;
   color: #FFFFFF; }
+  @media (max-width: 575.98px) {
+    h3, .h3 {
+      font-size: 24px;
+      line-height: 32px;
+      color: #FFFFFF; } }
 
 h4, .h4 {
   font-style: normal;
@@ -1397,6 +1402,9 @@ input[type=number]::-webkit-outer-spin-button {
     height: 9px;
     top: 24px;
     right: 30px; }
+    @media (max-width: 768px) {
+      .btn::after {
+        right: 13px; } }
   .btn:hover {
     background-color: #0aa7ff;
     box-shadow: none; }
@@ -3785,9 +3793,9 @@ input[type="radio"].visually-hidden {
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    width: 40%;
-    height: 40%;
-    right: 30%;
+    width: 27%;
+    height: 33%;
+    right: 42%;
     bottom: 5%;
     z-index: 5; }
   .page-header__social-img {
@@ -3931,6 +3939,9 @@ input[type="radio"].visually-hidden {
 
 .section-1 {
   padding: 72px 0 72px 0; }
+  @media (max-width: 575.98px) {
+    .section-1 {
+      text-align: center; } }
   .section-1__item {
     padding-bottom: 100px; }
   .section-1__title_right {
@@ -3997,7 +4008,7 @@ input[type="radio"].visually-hidden {
               transform: translate(-80px, 0); }
       @media (max-width: 991.98px) {
         .section-1__img.-i2 {
-          left: 60%;
+          left: 40%;
           top: 0;
           -webkit-transform: translate(-50%, -70%);
                   transform: translate(-50%, -70%);
@@ -4009,7 +4020,7 @@ input[type="radio"].visually-hidden {
       @media (max-width: 991.98px) {
         .section-1__img.-i3 {
           z-index: -1;
-          right: 60%;
+          right: 47%;
           top: 0;
           -webkit-transform: translate(50%, -70%);
                   transform: translate(50%, -70%); } }
@@ -4218,8 +4229,7 @@ input[type="radio"].visually-hidden {
   .student__name {
     padding-left: 60px;
     font-size: 16px;
-    line-height: 26px;
-    margin-top: 0; }
+    line-height: 26px; }
     .student__name_1 {
       position: relative; }
       .student__name_1::after {
@@ -4229,7 +4239,47 @@ input[type="radio"].visually-hidden {
         height: 46px;
         position: absolute;
         left: 0;
-        top: -20px; }
+        top: -10px; }
+    .student__name_2 {
+      position: relative; }
+      .student__name_2::after {
+        content: ' ';
+        background-image: url("../../img/student-2.svg");
+        width: 46px;
+        height: 46px;
+        position: absolute;
+        left: 0;
+        top: -10px; }
+    .student__name_3 {
+      position: relative; }
+      .student__name_3::after {
+        content: ' ';
+        background-image: url("../../img/student-3.svg");
+        width: 46px;
+        height: 46px;
+        position: absolute;
+        left: 0;
+        top: -10px; }
+    .student__name_4 {
+      position: relative; }
+      .student__name_4::after {
+        content: ' ';
+        background-image: url("../../img/student-4.svg");
+        width: 46px;
+        height: 46px;
+        position: absolute;
+        left: 0;
+        top: -10px; }
+    .student__name_5 {
+      position: relative; }
+      .student__name_5::after {
+        content: ' ';
+        background-image: url("../../img/student-5.svg");
+        width: 46px;
+        height: 46px;
+        position: absolute;
+        left: 0;
+        top: -10px; }
   .student .owl-theme .owl-stage {
     margin-bottom: 20px; }
   .student .owl-theme .owl-dots .owl-dot:focus {
@@ -4325,8 +4375,12 @@ input[type="radio"].visually-hidden {
 
 .section-2-phone {
   position: relative; }
+  @media (max-width: 575.98px) {
+    .section-2-phone {
+      text-align: center; } }
   .section-2-phone__title {
     color: #FFFFFF;
+    text-align: center;
     position: relative; }
     .section-2-phone__title::before {
       content: ' ';
@@ -4542,7 +4596,7 @@ input[type="radio"].visually-hidden {
   width: 25%;
   display: block;
   height: 25%;
-  left: 17%;
+  left: 12%;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -4550,7 +4604,8 @@ input[type="radio"].visually-hidden {
 
 .revievs__name-title {
   color: #FFFFFF;
-  margin-bottom: 32px; }
+  margin-bottom: 32px;
+  text-align: -webkit-center; }
 
 .revievs__name {
   position: relative;
@@ -4613,6 +4668,11 @@ a:hover {
   .app-container {
     padding-left: 11px;
     padding-right: 11px; } }
+
+@media (max-width: 575.98px) {
+  .app-container {
+    padding-left: 5px;
+    padding-right: 5px; } }
 
 .row {
   position: relative; }

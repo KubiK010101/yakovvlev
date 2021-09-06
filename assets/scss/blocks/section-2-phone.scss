@@ -1,7 +1,12 @@
 .section-2-phone {
     position: relative;
+    @media (max-width: 575.98px) {
+        text-align: center;
+    }
     &__title {
         color: #FFFFFF;
+        text-align: center;
+
         position: relative;
         &::before {
             content: ' ';

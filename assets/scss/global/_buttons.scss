@@ -29,6 +29,9 @@
     height: 9px;
     top: 24px;
     right: 30px;
+    @media (max-width: 768px) {
+      right: 13px;
+    }
   }
   &:hover {
     background-color: lighten($brand-color, 5%);

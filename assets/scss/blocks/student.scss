@@ -49,7 +49,7 @@
         padding-left: 60px;
         font-size: 16px;
         line-height: 26px;
-        margin-top: 0;
+        //margin: 0;
         &_1 {
             position: relative;
             &::after {
@@ -59,7 +59,59 @@
                 height: 46px;
                 position: absolute;
                 left: 0;
-                top: -20px;
+                top: -10px;
+            }
+        }
+
+        &_2 {
+            position: relative;
+            &::after {
+                content: ' ';
+                background-image: url("../../img/student-2.svg");
+                width: 46px;
+                height: 46px;
+                position: absolute;
+                left: 0;
+                top: -10px;
+            }
+        }
+
+        &_3 {
+            position: relative;
+            &::after {
+                content: ' ';
+                background-image: url("../../img/student-3.svg");
+                width: 46px;
+                height: 46px;
+                position: absolute;
+                left: 0;
+                top: -10px;
+            }
+        }
+
+        &_4 {
+            position: relative;
+            &::after {
+                content: ' ';
+                background-image: url("../../img/student-4.svg");
+                width: 46px;
+                height: 46px;
+                position: absolute;
+                left: 0;
+                top: -10px;
+            }
+        }
+
+        &_5 {
+            position: relative;
+            &::after {
+                content: ' ';
+                background-image: url("../../img/student-5.svg");
+                width: 46px;
+                height: 46px;
+                position: absolute;
+                left: 0;
+                top: -10px;
             }
         }
     }
@@ -89,43 +141,5 @@
     }
     .owl-nav {
         display: none;
-        // position: absolute;
-        // left: 0;
-        // right: 0;
-        // top: 50%;
-        // background-color: transparent;
-        // $side-margin: 10px;
-        // z-index: 5;
-        // button {
-        //     transform: translateY(-50%);
-        //     border: none;
-        //     &:focus {
-        //         outline: none!important;
-        //     }
-        //     &:hover {
-        //         background-color: transparent!important;
-        //     }
-        //     span {
-        //         display: block;
-        //         width: 48px;
-        //         height: 48px;
-        //     }
-        //     &.owl-prev {
-        //         position: absolute;
-        //         span {
-        //             background-image: url("../../img/toggler-left.svg");
-        //             background-size: cover;
-        //         }
-        //         left: $side-margin;
-        //     }
-        //     &.owl-next {
-        //         position: absolute;
-        //         span {
-        //             background-image: url("../../img/toggler-right.svg");
-        //             background-size: cover;
-        //         }
-        //         right: $side-margin;
-        //     }
-        // }
     }
 }

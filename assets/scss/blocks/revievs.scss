@@ -19,7 +19,7 @@
         width: 25%;
         display: block;
         height: 25%;
-        left: 17%;
+        left: 12%;
         top: 50%;
         transform: translateY(-50%);
         z-index: 5;
@@ -27,6 +27,7 @@
     &__name-title {
         color: #FFFFFF;
         margin-bottom: 32px;
+        text-align: -webkit-center;
     }
     &__name {
         position: relative;

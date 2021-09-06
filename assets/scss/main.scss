@@ -58,7 +58,11 @@ a:hover {
         padding-left: 11px;
         padding-right: 11px;
     }
-    @media (max-width: 767.98px) {}
+    @media (max-width: 575.98px) {
+        padding-left:5px;
+        padding-right:5px;
+    }
+
 }
 
 .row {
