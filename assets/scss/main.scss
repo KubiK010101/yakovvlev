@@ -23,6 +23,7 @@
 @import "blocks/student";
 @import "blocks/section-price";
 @import "blocks/section-2-phone";
+@import "blocks/section-form";
 body {
     position: relative;
     background: #0D1334;
@@ -50,4 +51,8 @@ body {
 
 a:hover {
     text-decoration: none;
+}
+
+input:focus {
+    outline: none;
 }

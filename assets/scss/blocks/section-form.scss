@@ -1,0 +1,162 @@
+.section-form {
+    &__title {
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 40px;
+        margin-left: 20px;
+        margin-bottom: 30px;
+        color: #FFFFFF;
+        position: relative;
+        &::before {
+            content: ' ';
+            position: absolute;
+            background-image: url("../../img/big-Ellipse.svg");
+            width: 82px;
+            height: 82px;
+            left: -35px;
+            top: -25px;
+            z-index: -1;
+        }
+    }
+    &__subtitle {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #A6B1CE;
+        margin: 46px 0;
+    }
+    &__list-title {
+        font-size: 24px;
+        margin: 32px 0;
+        color: white;
+        line-height: 32px;
+        font-weight: 700;
+    }
+    &__list {
+        padding-left: 20px;
+        list-style: none;
+    }
+    &__list-item {
+        padding-bottom: 16px;
+        padding-left: 24px;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #A6B1CE;
+        position: relative;
+        &::before {
+            content: ' ';
+            position: absolute;
+            background-image: url("../../img/list_before.svg");
+            width: 14px;
+            height: 14px;
+            left: -20px;
+            top: 5px;
+        }
+    }
+    &__card {
+        max-width: 500px;
+        min-height: 335px;
+        height: auto;
+        text-align: center;
+        padding: 50px 25px 24px 29px;
+        background: radial-gradient(86.9% 100% at 51.96% 100%, rgba(127, 139, 255, 0.05) 0%, rgba(127, 139, 255, 0.25) 0.01%, rgba(127, 139, 255, 0) 100%), #1B2846;
+        border-radius: 30px;
+        color: #FFFFFF;
+        border: solid 1px transparent;
+        position: relative;
+        margin-bottom: 64px;
+        .card-border {
+            position: absolute;
+            top: -1px;
+            right: -2px;
+            bottom: -2px;
+            left: -2px;
+            z-index: -1;
+            // margin: -1px 14px;
+            /* !importanté */
+            border-radius: 30px;
+            /* !importanté */
+            background: linear-gradient(118.99deg, rgba(128, 137, 167, 0.2) 2.19%, #56638F 96.82%);
+        }
+    }
+    &__card-title {
+        margin-bottom: 24px;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 32px;
+        /* identical to box height, or 133% */
+        text-align: center;
+        color: #FFFFFF;
+        &_gradient {
+            background: linear-gradient(180deg, #6159FE 0%, #A392F9 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+    &__card-sub-title {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #A6B1CE;
+    }
+    &__card-price {
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 26px;
+        margin-bottom: 24px;
+    }
+    &__card-input {
+        display: block;
+        font-size: 16px;
+        line-height: 30px;
+        margin: 16px 0;
+        padding: 15px 32px 15px 32px;
+        background-color: #2D3D64;
+        color: #A6B1CE;
+        border: none;
+        border-radius: 8px;
+        &:focus {
+            border: 1px solid #56638F;
+            outline: none;
+        }
+    }
+    &__card-checkbox {
+        position: relative;
+        appearance: none;
+        margin-right: 10px;
+        width: 14px;
+        height: 14px;
+        border: 1px solid #A6B1CE;
+        box-sizing: border-box;
+        border-radius: 2px;
+        &:checked {
+            // position: relative;
+            background-color: #1B2846;
+            background-size: cover;
+            &:after {
+                content: '';
+                position: absolute;
+                left: 1px;
+                right: 1px;
+                top: 1px;
+                bottom: 1px;
+                background-image: url("../../img/checkbox-checked.svg");
+                fill: #A392F9;
+            }
+        }
+    }
+    &__card-checkbox-label {
+        font-weight: normal;
+        text-align: left;
+        font-size: 13px;
+        line-height: 22px;
+        /* or 169% */
+        /* Светло-синий */
+        color: #A6B1CE;
+    }
+    .btn {
+        margin: 24px;
+    }
+}
