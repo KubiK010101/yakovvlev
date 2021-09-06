@@ -1,57 +1,70 @@
-.revievs{
-  &__img{
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
-    text-align: center;
-  }
-  &__name-title{
-
-    color: #FFFFFF;
-    margin-bottom: 32px;
-  }
-  &__name{
-
-    position: relative;
-    font-size: 16px;
-    line-height: 26px;
-    color: #A6B1CE;
-    display: block;
-    text-align: center;
-
-    &_1{
-      &::before{
-        content: ' ';
-        position: absolute;
-        background-image: url(../../img/revievs-before-1.svg);
-        top: 0;
-        left: 0;
-        width: 54px;
-        height: 54px;
-      }
+.revievs {
+    &__img {
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        text-align: center;
     }
-    &_2{
-      &::before{
-        content: ' ';
-        position: absolute;
-        background-image: url(../../img/revievs-before-2.svg);
-        top: 0;
-        left: 0;
-        width: 54px;
-        height: 54px;
-      }
+    &__img-wrapper {
+        position: relative;
     }
-  }
-  &__bottom-item {
-
-  }
-  &__btn{
-    display: block;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right:auto;
-    margin-top: 64px;
+    &__btn-play {
+        background-image: url("../../img/header-btn-play.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        // width: 165px;
+        // height: 200px;
+        width: 25%;
+        display: block;
+        height: 25%;
+        left: 17%;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 5;
+    }
+    &__name-title {
+        color: #FFFFFF;
+        margin-bottom: 32px;
+    }
+    &__name {
+        position: relative;
+        font-size: 16px;
+        line-height: 26px;
+        color: #A6B1CE;
+        display: block;
+        text-align: center;
+        &_1 {
+            &::before {
+                content: ' ';
+                position: absolute;
+                background-image: url(../../img/revievs-before-1.svg);
+                top: 0;
+                left: 0;
+                width: 54px;
+                height: 54px;
+            }
+        }
+        &_2 {
+            &::before {
+                content: ' ';
+                position: absolute;
+                background-image: url(../../img/revievs-before-2.svg);
+                top: 0;
+                left: 0;
+                width: 54px;
+                height: 54px;
+            }
+        }
+    }
+    &__bottom-item {}
+    &__btn {
+        display: block;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 64px;
     }
 }
