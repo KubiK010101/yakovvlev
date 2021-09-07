@@ -4084,6 +4084,9 @@ input[type="radio"].visually-hidden {
   line-height: 64px;
   letter-spacing: 0.1em;
   color: #FFFFFF; }
+  @media (max-width: 767.98px) {
+    .section-2__number {
+      font-size: 54px; } }
 
 .section-2__number-text {
   font-weight: bold;
@@ -4091,6 +4094,9 @@ input[type="radio"].visually-hidden {
   line-height: 32px;
   letter-spacing: 0.06em;
   color: #FFFFFF; }
+  @media (max-width: 767.98px) {
+    .section-2__number-text {
+      font-size: 22px; } }
 
 .section-2__list {
   font-size: 16px;
@@ -4387,6 +4393,8 @@ input[type="radio"].visually-hidden {
 
 .section-2-phone {
   position: relative; }
+  .section-2-phone * {
+    text-align: left; }
   @media (max-width: 575.98px) {
     .section-2-phone {
       text-align: center; } }
@@ -4703,6 +4711,8 @@ a:hover {
   text-decoration: none; }
 
 .app-container {
+  max-width: 100%;
+  overflow: hidden;
   margin: 0 auto; }
   @media (min-width: 1400px) {
     .app-container {

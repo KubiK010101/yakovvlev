@@ -1,4 +1,4 @@
-<svg width="739" height="302"  xmlns="http://www.w3.org/2000/svg">
+<svg width="739" height="302" preserveAspectRatio="none"  xmlns="http://www.w3.org/2000/svg">
 <path d="M730.063 30.7909C730.414 14.1631 717.049 0.5 700.418 0.5H30C13.7076 0.5 0.5 13.7076 0.5 30V272C0.5 288.292 13.7076 301.5 30 301.5H731.307H736.3C737.487 301.5 738.268 300.144 737.663 299.076C736.418 296.875 734.776 293.732 733.41 290.299C732.047 286.873 730.945 283.125 730.807 279.721C727.331 193.777 728.95 83.5348 730.063 30.7909Z" fill="#0D1334" stroke="url(#paint0_linear)"/>
 <defs>
 <linearGradient id="paint0_linear" x1="365.653" y1="0" x2="365.653" y2="302" gradientUnits="userSpaceOnUse">

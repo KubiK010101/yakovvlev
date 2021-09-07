@@ -46,6 +46,8 @@ a:hover {
 .app-container {
     // padding-left: 100px;
     // padding-right: 100px;
+    max-width: 100%;
+    overflow: hidden;
     margin: 0 auto;
     @media (min-width: 1400px) {
         max-width: 1240px;

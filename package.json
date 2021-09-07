@@ -37,6 +37,7 @@
         "imagemin-zopfli": "^6.0.0"
     },
     "dependencies": {
-        "gulp-rename": "^1.4.0"
+        "gulp-rename": "^1.4.0",
+        "gulp-webserver": "^0.9.1"
     }
 }

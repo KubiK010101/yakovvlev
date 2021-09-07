@@ -2,10 +2,11 @@ module.exports = function() {
     $.gulp.task('serve', function() {
         $.bs.init({
             server: {
-                baseDir: "./build"
+                baseDir: "./build",
             },
-			injectChanges: true,
-			notify: false
+            host: "0.0.0.0",
+            injectChanges: true,
+            notify: false
         });
     });
 }

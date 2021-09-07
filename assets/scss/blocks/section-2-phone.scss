@@ -1,5 +1,8 @@
 .section-2-phone {
     position: relative;
+    & * {
+        text-align: left;
+    }
     @media (max-width: 575.98px) {
         text-align: center;
     }
