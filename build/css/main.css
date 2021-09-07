@@ -3985,6 +3985,7 @@ input[type="radio"].visually-hidden {
     .section-1__border-text_p {
       padding-top: 25px; }
   .section-1__img {
+    max-width: 100%;
     max-height: 350px;
     position: absolute;
     z-index: 5;
@@ -4090,7 +4091,8 @@ input[type="radio"].visually-hidden {
   line-height: 26px;
   color: #A6B1CE;
   list-style: none;
-  padding-left: 54px; }
+  padding-left: 54px;
+  text-align: left; }
 
 .section-2__list-item {
   padding-bottom: 16px;
@@ -4393,6 +4395,9 @@ input[type="radio"].visually-hidden {
       z-index: -1; }
   .section-2-phone .item {
     margin: 0 60px; }
+    @media (max-width: 575.98px) {
+      .section-2-phone .item {
+        margin: 0; } }
   .section-2-phone .owl-theme .owl-dots .owl-dot:focus {
     outline: none; }
   .section-2-phone .owl-theme .owl-dots .owl-dot span {
@@ -4412,6 +4417,11 @@ input[type="radio"].visually-hidden {
     top: 50%;
     background-color: transparent;
     z-index: 5; }
+    @media (max-width: 575.98px) {
+      .section-2-phone .owl-nav {
+        position: inherit;
+        bottom: 0;
+        top: auto; } }
     .section-2-phone .owl-nav button {
       -webkit-transform: translateY(-50%);
               transform: translateY(-50%);
@@ -4427,12 +4437,22 @@ input[type="radio"].visually-hidden {
       .section-2-phone .owl-nav button.owl-prev {
         position: absolute;
         left: 10px; }
+        @media (max-width: 575.98px) {
+          .section-2-phone .owl-nav button.owl-prev {
+            position: inherit;
+            right: auto;
+            left: auto; } }
         .section-2-phone .owl-nav button.owl-prev span {
           background-image: url("../../img/toggler-left.svg");
           background-size: cover; }
       .section-2-phone .owl-nav button.owl-next {
         position: absolute;
         right: 10px; }
+        @media (max-width: 575.98px) {
+          .section-2-phone .owl-nav button.owl-next {
+            position: inherit;
+            left: auto;
+            right: auto; } }
         .section-2-phone .owl-nav button.owl-next span {
           background-image: url("../../img/toggler-right.svg");
           background-size: cover; }
@@ -4654,25 +4674,24 @@ body {
 a:hover {
   text-decoration: none; }
 
-@media (min-width: 1400px) {
-  .app-container {
-    max-width: 1240px;
-    padding-left: 50px; } }
-
-@media (max-width: 1399.98px) {
-  .app-container {
-    padding-left: 46px;
-    padding-right: 46px; } }
-
-@media (max-width: 991.98px) {
-  .app-container {
-    padding-left: 11px;
-    padding-right: 11px; } }
-
-@media (max-width: 575.98px) {
-  .app-container {
-    padding-left: 5px;
-    padding-right: 5px; } }
+.app-container {
+  margin: 0 auto; }
+  @media (min-width: 1400px) {
+    .app-container {
+      max-width: 1240px;
+      padding-left: 50px; } }
+  @media (max-width: 1399.98px) {
+    .app-container {
+      padding-left: 46px;
+      padding-right: 46px; } }
+  @media (max-width: 991.98px) {
+    .app-container {
+      padding-left: 11px;
+      padding-right: 11px; } }
+  @media (max-width: 575.98px) {
+    .app-container {
+      padding-left: 5px;
+      padding-right: 5px; } }
 
 .row {
   position: relative; }

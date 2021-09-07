@@ -6,7 +6,6 @@
     &__title {
         color: #FFFFFF;
         text-align: center;
-
         position: relative;
         &::before {
             content: ' ';
@@ -21,6 +20,9 @@
     }
     .item {
         margin: 0 60px;
+        @media (max-width: 575.98px) {
+            margin: 0;
+        }
     }
     .owl-theme .owl-dots .owl-dot {
         &:focus {
@@ -49,6 +51,11 @@
         background-color: transparent;
         $side-margin: 10px;
         z-index: 5;
+        @media (max-width: 575.98px) {
+            position: inherit;
+            bottom: 0;
+            top: auto;
+        }
         button {
             transform: translateY(-50%);
             border: none;
@@ -65,19 +72,29 @@
             }
             &.owl-prev {
                 position: absolute;
+                left: $side-margin;
+                @media (max-width: 575.98px) {
+                    position: inherit;
+                    right: auto;
+                    left: auto;
+                }
                 span {
                     background-image: url("../../img/toggler-left.svg");
                     background-size: cover;
                 }
-                left: $side-margin;
             }
             &.owl-next {
                 position: absolute;
+                right: $side-margin;
+                @media (max-width: 575.98px) {
+                    position: inherit;
+                    left: auto;
+                    right: auto;
+                }
                 span {
                     background-image: url("../../img/toggler-right.svg");
                     background-size: cover;
                 }
-                right: $side-margin;
             }
         }
     }
