@@ -1393,7 +1393,12 @@ input[type=number]::-webkit-outer-spin-button {
   @media (max-width: 767.98px) {
     .btn {
       font-size: 13px;
-      padding: 16px 49px 16px 18px; } }
+      padding: 16px 49px 16px 18px;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      display: block; } }
   .btn::after {
     content: ' ';
     position: absolute;
@@ -1402,7 +1407,7 @@ input[type=number]::-webkit-outer-spin-button {
     height: 9px;
     top: 24px;
     right: 30px; }
-    @media (max-width: 768px) {
+    @media (max-width: 768.98px) {
       .btn::after {
         right: 13px; } }
   .btn:hover {
@@ -3941,7 +3946,8 @@ input[type="radio"].visually-hidden {
   padding: 72px 0 72px 0; }
   @media (max-width: 575.98px) {
     .section-1 {
-      text-align: center; } }
+      text-align: center;
+      padding: 64px 0 64px 0; } }
   .section-1__item {
     padding-bottom: 100px; }
   .section-1__title_right {
@@ -4628,28 +4634,46 @@ input[type="radio"].visually-hidden {
   text-align: -webkit-center; }
 
 .revievs__name {
-  position: relative;
   font-size: 16px;
   line-height: 26px;
   color: #A6B1CE;
   display: block;
   text-align: center; }
-  .revievs__name_1::before {
-    content: ' ';
-    position: absolute;
-    background-image: url(../../img/revievs-before-1.svg);
-    top: 0;
-    left: 0;
-    width: 54px;
-    height: 54px; }
-  .revievs__name_2::before {
-    content: ' ';
-    position: absolute;
-    background-image: url(../../img/revievs-before-2.svg);
-    top: 0;
-    left: 0;
-    width: 54px;
-    height: 54px; }
+  .revievs__name_1 {
+    position: relative; }
+    .revievs__name_1::before {
+      content: ' ';
+      position: absolute;
+      background-image: url(../../img/revievs-before-1.svg);
+      top: 0;
+      left: 95px;
+      width: 54px;
+      height: 54px; }
+      @media (max-width: 1199.98px) {
+        .revievs__name_1::before {
+          left: 70px; } }
+      @media (max-width: 767.98px) {
+        .revievs__name_1::before {
+          left: 120px; } }
+      @media (max-width: 575.98px) {
+        .revievs__name_1::before {
+          left: 40px; } }
+  .revievs__name_2 {
+    position: relative; }
+    .revievs__name_2::before {
+      content: ' ';
+      position: absolute;
+      background-image: url(../../img/revievs-before-2.svg);
+      top: 0;
+      left: 95px;
+      width: 54px;
+      height: 54px; }
+      @media (max-width: 1199.98px) {
+        .revievs__name_2::before {
+          left: 70px; } }
+      @media (max-width: 575.98px) {
+        .revievs__name_2::before {
+          left: 40px; } }
 
 .revievs__btn {
   display: block;

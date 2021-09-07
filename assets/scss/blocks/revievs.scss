@@ -14,8 +14,6 @@
         background-size: contain;
         background-repeat: no-repeat;
         position: absolute;
-        // width: 165px;
-        // height: 200px;
         width: 25%;
         display: block;
         height: 25%;
@@ -30,36 +28,51 @@
         text-align: -webkit-center;
     }
     &__name {
-        position: relative;
         font-size: 16px;
         line-height: 26px;
         color: #A6B1CE;
         display: block;
         text-align: center;
         &_1 {
+            position: relative;
             &::before {
                 content: ' ';
                 position: absolute;
                 background-image: url(../../img/revievs-before-1.svg);
                 top: 0;
-                left: 0;
-                width: 54px;
+                left: 95px;
+                width:54px;
                 height: 54px;
+                @media (max-width: 1199.98px) {
+                    left: 70px;
+                }
+                @media (max-width: 767.98px) {
+                    left: 120px;
+                }
+                @media (max-width: 575.98px) {
+                    left: 40px;
+                }
             }
         }
         &_2 {
+            position: relative;
             &::before {
                 content: ' ';
                 position: absolute;
                 background-image: url(../../img/revievs-before-2.svg);
                 top: 0;
-                left: 0;
+                left: 95px;
                 width: 54px;
                 height: 54px;
+                @media (max-width: 1199.98px) {
+                    left: 70px;
+                }
+                @media (max-width: 575.98px) {
+                    left: 40px;
+                }
             }
         }
     }
-    &__bottom-item {}
     &__btn {
         display: block;
         left: 0;
