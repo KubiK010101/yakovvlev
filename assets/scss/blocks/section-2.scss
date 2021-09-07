@@ -2,7 +2,6 @@
     &__title {
         color: #FFFFFF;
         position: relative;
-
         &::before {
             content: ' ';
             position: absolute;
@@ -35,6 +34,7 @@
         color: #A6B1CE;
         list-style: none;
         padding-left: 54px;
+        text-align: left;
     }
     &__list-item {
         padding-bottom: 16px;
