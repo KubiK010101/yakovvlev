@@ -4202,6 +4202,8 @@ input[type="radio"].visually-hidden {
   padding-bottom: 72px; }
   .student__title {
     text-align: center; }
+  .owl-item .student__img {
+    height: 382px; }
   .student__img {
     width: 100%;
     height: auto;
@@ -4228,6 +4230,8 @@ input[type="radio"].visually-hidden {
     margin-right: auto;
     display: block;
     margin-top: 64px; }
+  .owl-item .student__text {
+    padding-top: 0; }
   .student__text {
     color: #FFFFFF;
     padding-top: 260px;
