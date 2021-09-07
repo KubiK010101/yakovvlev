@@ -4084,6 +4084,9 @@ input[type="radio"].visually-hidden {
   line-height: 64px;
   letter-spacing: 0.1em;
   color: #FFFFFF; }
+  @media (max-width: 767.98px) {
+    .section-2__number {
+      font-size: 54px; } }
 
 .section-2__number-text {
   font-weight: bold;
@@ -4091,6 +4094,9 @@ input[type="radio"].visually-hidden {
   line-height: 32px;
   letter-spacing: 0.06em;
   color: #FFFFFF; }
+  @media (max-width: 767.98px) {
+    .section-2__number-text {
+      font-size: 22px; } }
 
 .section-2__list {
   font-size: 16px;
@@ -4202,6 +4208,8 @@ input[type="radio"].visually-hidden {
   padding-bottom: 72px; }
   .student__title {
     text-align: center; }
+  .owl-item .student__img {
+    height: 382px; }
   .student__img {
     width: 100%;
     height: auto;
@@ -4228,6 +4236,8 @@ input[type="radio"].visually-hidden {
     margin-right: auto;
     display: block;
     margin-top: 64px; }
+  .owl-item .student__text {
+    padding-top: 0; }
   .student__text {
     color: #FFFFFF;
     padding-top: 260px;
@@ -4383,6 +4393,8 @@ input[type="radio"].visually-hidden {
 
 .section-2-phone {
   position: relative; }
+  .section-2-phone * {
+    text-align: left; }
   @media (max-width: 575.98px) {
     .section-2-phone {
       text-align: center; } }
@@ -4699,6 +4711,8 @@ a:hover {
   text-decoration: none; }
 
 .app-container {
+  max-width: 100%;
+  overflow: hidden;
   margin: 0 auto; }
   @media (min-width: 1400px) {
     .app-container {

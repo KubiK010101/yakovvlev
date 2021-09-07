@@ -4,6 +4,9 @@
     &__title {
         text-align: center;
     }
+    .owl-item &__img {
+        height: 382px;
+    }
     &__img {
         width: 100%;
         height: auto;
@@ -37,6 +40,9 @@
         display: block;
         margin-top: 64px;
     }
+    .owl-item &__text {
+        padding-top: 0;
+    }
     &__text {
         color: #FFFFFF;
         padding-top: 260px;
@@ -62,7 +68,6 @@
                 top: -10px;
             }
         }
-
         &_2 {
             position: relative;
             &::after {
@@ -75,7 +80,6 @@
                 top: -10px;
             }
         }
-
         &_3 {
             position: relative;
             &::after {
@@ -88,7 +92,6 @@
                 top: -10px;
             }
         }
-
         &_4 {
             position: relative;
             &::after {
@@ -101,7 +104,6 @@
                 top: -10px;
             }
         }
-
         &_5 {
             position: relative;
             &::after {

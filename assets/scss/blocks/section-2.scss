@@ -20,6 +20,9 @@
         line-height: 64px;
         letter-spacing: 0.1em;
         color: #FFFFFF;
+        @media (max-width: 767.98px) {
+            font-size: 54px;
+        }
     }
     &__number-text {
         font-weight: bold;
@@ -27,6 +30,9 @@
         line-height: 32px;
         letter-spacing: 0.06em;
         color: #FFFFFF;
+        @media (max-width: 767.98px) {
+            font-size: 22px;
+        }
     }
     &__list {
         font-size: 16px;
